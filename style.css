@@ -1,18 +1,18 @@
-html{
+html {
     /* 16px */
     font-size: 100%;
 }
 
-body{
+body {
     color: #24292e;
     font-family: "Sawarabi Gothic";
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-p{
+p {
     font-size: 1.3rem;
 }
 
@@ -21,11 +21,11 @@ img {
 }
 
 li {
-    list-style:none;
+    list-style: none;
     font-size: 1.2rem;
 }
 
-h4{
+h4 {
     text-align: center;
 }
 
@@ -47,7 +47,7 @@ h4{
     display: block;
 }
 
-.section-title{
+.section-title {
     font-size: 1.5rem;
     text-align: center;
     margin-bottom: 40px;
@@ -94,13 +94,13 @@ h4{
 
 #main img {
     width: 100px;
-    max-width:1920px;
+    max-width: 1920px;
     height: 400px;
     object-fit: cover;
 }
 
 /* about */
-#about ul{
+#about ul {
     margin-bottom: 30px;
 }
 
@@ -108,91 +108,91 @@ h4{
     margin-bottom: 3px;
 }
 
-#about ul li:first-child{
+#about ul li:first-child {
     margin-bottom: 30px;
 }
 
 /* works */
-#works ul{
+#works ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: 50px;
 }
 
-#works ul li{
+#works ul li {
     width: 31%;
     margin-bottom: 23px;
 }
 
-#works ul li img{
+#works ul li img {
     cursor: pointer;
     transition: all 0.3s;
     padding-bottom: 10px;
 }
 
-#works ul li img:hover{
-    transform: scale(1.1,1.1);
+#works ul li img:hover {
+    transform: scale(1.1, 1.1);
     opacity: 0.7;
 }
 
 /* News */
-#news dl{
+#news dl {
     display: flex;
     flex-wrap: wrap;
     border-top: 1px solid #c8c8c8;
     margin-top: 20px;
 }
 
-#news dt{
-    width:20%;
+#news dt {
+    width: 20%;
     border-bottom: 1px solid #c8c8c8;
     padding: 15px;
 }
 
-#news dd{
+#news dd {
     width: 80%;
     border-bottom: 1px solid #c8c8c8;
     padding: 15px;
 }
 
 /* Contact */
-#contact p{
+#contact p {
     text-align: center;
     margin-bottom: 20px;
 }
 
-#contact dl{
+#contact dl {
     display: flex;
     flex-wrap: wrap;
 }
 
-#contact dt{
+#contact dt {
     width: 15%;
     margin-bottom: 10px;
 }
 
-#contact dd{
+#contact dd {
     width: 85%;
     margin-bottom: 10px;
 }
 
 #contact dd input,
-#contact dd textarea{
+#contact dd textarea {
     width: 100%;
     border: 1px solid #c8c8c8;
     padding: 10px;
 }
 
-#contact dd textarea{
-        height:  10rem;
+#contact dd textarea {
+    height: 10rem;
 }
 
 #contact .button {
     text-align: center;
 }
 
-#contact .button input{
+#contact .button input {
     border: 1px solid #24292e;
     background-color: #24292e;
     width: 200px;
@@ -201,11 +201,10 @@ h4{
     transition: all 0.3s;
 }
 
-#contact .button input:hover{
-    background-color:  #fff;
+#contact .button input:hover {
+    background-color: #fff;
     color: #24292e;
 }
-
 
 /* sp */
 @media screen and (max-width: 767px) {
@@ -220,10 +219,10 @@ h4{
         line-height: 40px;
         margin-top: 20px;
     }
-    
+
     #header li {
         font-size: 0.8rem;
-        margin-left:20px;
+        margin-left: 20px;
     }
 
     #header li img.icon {
@@ -232,26 +231,26 @@ h4{
     }
 
     /* works */
-    #works ul{
+    #works ul {
         flex-direction: column;
     }
 
-    #works ul li{
+    #works ul li {
         width: 100%;
     }
 
     /* News */
-    #news dl{
+    #news dl {
         flex-direction: column;
     }
 
-    #news dt{
+    #news dt {
         width: 100%;
         border-bottom: none;
         padding-bottom: 0;
     }
 
-    #news dd{
+    #news dd {
         width: 100%;
         padding: 0;
     }
@@ -266,7 +265,7 @@ h4{
         margin-bottom: 5px;
     }
 
-    #contact dd{
+    #contact dd {
         width: 100%;
     }
 }
